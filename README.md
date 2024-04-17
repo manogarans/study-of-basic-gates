@@ -1,14 +1,14 @@
 ### study-of-basic-gates
 
-**AIM:** 
+## AIM: 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
 
-**Equipments Required:**
+## Equipments Required:
 
 Software – Quartus prime 
 
-**Theory**
+## Theory 
 
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
@@ -49,7 +49,7 @@ Y= A⊕B
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 Y= A⊕B
 
-**Procedure** 
+## Procedure :  
 
 1.	Type the program in Quartus software.
 
@@ -62,18 +62,34 @@ Y= A⊕B
 5.	For different input combinations generate the timing diagram.
 
 
-**PROGRAM**
+## PROGRAM : 
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+### Developed by: MANOGARAN S
+### RegisterNumber: 212223240081
 
- Developed by: RegisterNumber: 
- 
+```
+module exp1(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
+```
 **Logic symbol & Truthtable**
+![Screenshot 2024-04-17 153839](https://github.com/manogarans/study-of-basic-gates/assets/139331782/4d79f2d0-6ba4-4627-a531-3776dc825bcf)
 
 **RTL realization Output:** 
+![Screenshot 2024-04-17 131144](https://github.com/manogarans/study-of-basic-gates/assets/139331782/aaf24df9-353c-4e00-94df-e7a31a4c2355)
 
 **RTL**
+![Screenshot 2024-04-17 131209](https://github.com/manogarans/study-of-basic-gates/assets/139331782/020cec7e-8e28-4196-b883-82372f84130b)
 
-**Result:**
-
+## Result:
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
