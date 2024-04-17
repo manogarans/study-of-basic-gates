@@ -81,13 +81,13 @@ xor(xorgate,a,b);
 xnor(xnorgate,a,b);
 endmodule
 ```
-**Logic symbol & Truthtable**
+## Logic symbol & Truthtable
 ![Screenshot 2024-04-17 153839](https://github.com/manogarans/study-of-basic-gates/assets/139331782/4d79f2d0-6ba4-4627-a531-3776dc825bcf)
 
-**RTL realization Output:** 
+## RTL realization Output:
 ![Screenshot 2024-04-17 131144](https://github.com/manogarans/study-of-basic-gates/assets/139331782/aaf24df9-353c-4e00-94df-e7a31a4c2355)
 
-**RTL**
+## RTL
 ![Screenshot 2024-04-17 131209](https://github.com/manogarans/study-of-basic-gates/assets/139331782/020cec7e-8e28-4196-b883-82372f84130b)
 
 ## Result:
